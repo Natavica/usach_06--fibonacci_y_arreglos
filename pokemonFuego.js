@@ -29,3 +29,6 @@ let pokemon = [
     }
 ];
 
+let pokemonFuego = pokemon.filter( poke => poke.tipo === 'Fuego'); // filter crea un nuevo arreglo con los elementos que cumplen la condición.
+
+console.log(pokemonFuego);
